@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Domain\Vela.Domain.csproj" />
+    <ProjectReference Include="..\Vela.DataAccess\Vela.DataAccess.csproj" />
+    <ProjectReference Include="..\Vela.Application\Vela.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
